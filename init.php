@@ -24,7 +24,8 @@ class Auth_Saml extends Plugin implements IHandler {
 		return array(0.1,
 				"Authenticates against a SAML server (configured in config.php)",
 				"tsmgeek",
-				true);
+				true,
+				"https://github.com/tsmgeek/ttrss-auth-saml");
 	}
 
         function csrf_ignore($method) {
